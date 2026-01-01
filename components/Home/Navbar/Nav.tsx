@@ -25,7 +25,7 @@ const Nav = ({ openNav }: Props) => {
     <div
       className={`${
         navBg
-          ? "backdrop-blur-sm bg-[#510136] shadow-lg shadow-black/5 dark:shadow-white/5"
+          ? "backdrop-blur-sm bg-[#510136] shadow-lg shadow-black/20"
           : "fixed"
       } transition-all duration-200 h-[74px] z-10000 fixed w-full`}
     >
@@ -35,14 +35,14 @@ const Nav = ({ openNav }: Props) => {
           <Link href="/" className="transition-all duration-200">
             <Image
               src="/images/logo.webp"
-              alt="Virtual Dive Logo"
+              alt="Virtual Dive Studio Logo"
               width={210}
               height={60}
               className="hidden md:block"
             />
             <Image
               src="/images/logo.webp"
-              alt="Virtual Dive Logo"
+              alt="Virtual Dive Studio Logo"
               width={160}
               height={60}
               className="block md:hidden"

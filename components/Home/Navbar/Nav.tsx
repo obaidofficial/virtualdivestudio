@@ -1,6 +1,6 @@
 "use client";
-import MyButton from "@/components/Helper/MyButton";
 import { NavLinks } from "@/constants/navlinks";
+import FillPrimaryButton from "@/components/Helper/FillPrimaryButton";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -38,11 +38,14 @@ const Nav = ({ openNav }: Props) => {
               alt="Virtual Dive Logo"
               width={210}
               height={60}
-              className={`${
-                navBg
-                  ? "brightness-[1] invert-[0]"
-                  : "brightness-[1] invert-[0]"
-              }`}
+              className="hidden md:block"
+            />
+            <Image
+              src="/images/logo.webp"
+              alt="Virtual Dive Logo"
+              width={160}
+              height={60}
+              className="block md:hidden"
             />
           </Link>
         </div>
@@ -68,10 +71,8 @@ const Nav = ({ openNav }: Props) => {
 
         <div className="flex gap-5 items-center">
           {/* Button */}
-          <Link href="#">
-            <button className="px-4.5 py-2 text-white text-base transition-all duration-200 rounded-full cursor-pointer bg-[#ef41de] shadow-none border-2 border-[#ef41de]">
-              Contact Us <span className="pl-2">⇢</span>
-            </button>
+          <Link href="/contact" className="hidden lg:block">
+            <FillPrimaryButton>Contact Us</FillPrimaryButton>
           </Link>
 
           {/* Theme Toggler */}
@@ -81,7 +82,7 @@ const Nav = ({ openNav }: Props) => {
           <HiBars3BottomRight
             onClick={openNav}
             className={`w-8 h-8 cursor-pointer ${
-              navBg ? "text-[#252525]" : "text-black"
+              navBg ? "text-white" : "text-white"
             } lg:hidden`}
           />
         </div>

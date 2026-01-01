@@ -8,22 +8,31 @@ const SocialIcons = () => {
   return (
     <ul className="flex gap-5">
       <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
-        <Link href="#">
+        <Link
+          href="https://www.facebook.com/virtualdivestudios/"
+          target="_blank"
+        >
           <FaFacebookF />
         </Link>
       </li>
       <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
-        <Link href="#">
+        <Link
+          href="https://www.linkedin.com/company/virtual-dive-studios/"
+          target="_blank"
+        >
           <FaLinkedinIn />
         </Link>
       </li>
       <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
-        <Link href="#">
+        <Link
+          href="https://www.instagram.com/virtualdivestudios/"
+          target="_blank"
+        >
           <FiInstagram />
         </Link>
       </li>
       <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
-        <Link href="#">
+        <Link href="https://x.com/virtual30454" target="_blank">
           <FaXTwitter />
         </Link>
       </li>

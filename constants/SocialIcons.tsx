@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const SocialIcons = () => {
   return (
     <ul className="flex gap-5">
-      <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
+      <li className="text-white/80 text-[18px] lg:text-[22px] cursor-pointer hover:text-[#ef41de]">
         <Link
           href="https://www.facebook.com/virtualdivestudios/"
           target="_blank"
@@ -15,7 +15,7 @@ const SocialIcons = () => {
           <FaFacebookF />
         </Link>
       </li>
-      <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
+      <li className="text-white/80 text-[18px] lg:text-[22px] cursor-pointer hover:text-[#ef41de]">
         <Link
           href="https://www.linkedin.com/company/virtual-dive-studios/"
           target="_blank"
@@ -23,7 +23,7 @@ const SocialIcons = () => {
           <FaLinkedinIn />
         </Link>
       </li>
-      <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
+      <li className="text-white/80 text-[18px] lg:text-[22px] cursor-pointer hover:text-[#ef41de]">
         <Link
           href="https://www.instagram.com/virtualdivestudios/"
           target="_blank"
@@ -31,7 +31,7 @@ const SocialIcons = () => {
           <FiInstagram />
         </Link>
       </li>
-      <li className="text-white/80 text-[22px] cursor-pointer hover:text-[#ef41de]">
+      <li className="text-white/80 text-[18px] lg:text-[22px] cursor-pointer hover:text-[#ef41de]">
         <Link href="https://x.com/virtual30454" target="_blank">
           <FaXTwitter />
         </Link>

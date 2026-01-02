@@ -45,12 +45,19 @@ const ContactForm = () => {
               />
             </div>
 
-            <div className="lg:col-span-4 flex flex-col justify-center items-start">
+            <div className="lg:col-span-4 flex flex-col">
               <div className="flex gap-2 text-white">
-                <input type="checkbox" id="consent" required />
-                By sending this form you agree to our Privacy Policy and Terms &
-                Conditions. The information you provide will be added to our
-                system for further communication.
+                <input
+                  type="checkbox"
+                  id="consent"
+                  required
+                  className="w-[60px] lg:w-6"
+                />
+                <span className="font-light text-[14px]">
+                  By sending this form you agree to our Privacy Policy and Terms
+                  & Conditions. The information you provide will be added to our
+                  system for further communication.
+                </span>
               </div>
             </div>
 

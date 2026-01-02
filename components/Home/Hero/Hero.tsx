@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="relative w-full h-[70vh] sm:h-screen">
       {/* Overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-contain bg-center bg-no-repeat bg-[url('/images/hero/hero_overlay.webp')] z-1 opacity-80"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-contain bg-center bg-no-repeat bg-[url('/images/hero/hero_overlay.webp')] z-1 opacity-30"></div>
 
       {/* Video */}
       <video

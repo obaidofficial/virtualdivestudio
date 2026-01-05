@@ -6,7 +6,7 @@ export const NavLinks = [
   },
   {
     id: 2,
-    url: "#",
+    url: "/industries",
     label: "Industries",
   },
   {
@@ -28,5 +28,10 @@ export const NavLinks = [
     id: 6,
     url: "#",
     label: "About",
+  },
+  {
+    id: 7,
+    url: "/industries/gaming-solutions",
+    label: "Gaming Solutions",
   },
 ];

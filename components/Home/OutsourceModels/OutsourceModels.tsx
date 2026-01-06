@@ -4,7 +4,7 @@ const OutsourceModels = () => {
   return (
     <div>
       <div className="grid lg:grid-cols-12 gap-2 lg:gap-4">
-        <div className="lg:col-span-6 py-8 px-8 flex flex-col justify-center">
+        <div className="lg:col-span-6 py-2 md:py-8 px-1 md:px-8 flex flex-col justify-center">
           <h2 className="text-[28px] md:text-[32] lg:text-[42px] text-white tracking-[0.5px] leading-[1.1em]">
             Our Outsource Models
           </h2>
@@ -15,7 +15,7 @@ const OutsourceModels = () => {
           </p>
         </div>
 
-        <div className="lg:col-span-6 py-8 px-8 gap-2 flex flex-col">
+        <div className="lg:col-span-6 py-1 md:py-8 px-1 gap-2 flex flex-col">
           <div className="py-4 px-6 border hover:border-[#FF00E5] rounded-xl bg-[#320127] border-[#320127] transition-all duration-300">
             <h2 className="text-[20px] md:text-[24] lg:text-[30px] text-white tracking-[0.5px] leading-[1.1em]">
               Game Development Outsourcing:

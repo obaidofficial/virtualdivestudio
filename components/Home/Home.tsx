@@ -3,6 +3,13 @@ import Hero from "./Hero/Hero";
 import TrustedPartner from "./TrustedPartner/TrustedPartner";
 import CoreServices from "./CoreServices/CoreServices";
 import WhoWeAre from "./WhoWeAre/WhoWeAre";
+import FullWidthCTA from "../Helper/FullWidthCTA";
+import { GlobalRecognitions } from "./GlobalRecognitions/GlobalRecognitions";
+import WhyVRAR from "./WhyVRAR/WhyVRAR";
+import CoreEngines from "./CoreEngines/CoreEngines";
+import DevelopmentProcess from "./DevelopmentProcess/DevelopmentProcess";
+import WhyChoose from "./WhyChosse/WhyChoose";
+import CaseStudies from "./CaseStudies/CaseStudies";
 
 const Home = () => {
   return (
@@ -11,6 +18,13 @@ const Home = () => {
       <TrustedPartner />
       <CoreServices />
       <WhoWeAre />
+      <GlobalRecognitions />
+      <FullWidthCTA />
+      <WhyVRAR />
+      <CoreEngines />
+      <DevelopmentProcess />
+      <WhyChoose />
+      <CaseStudies />
     </div>
   );
 };

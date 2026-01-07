@@ -64,7 +64,7 @@ const CasesData = [
 
 const CasesCarousel = () => {
   return (
-    <div>
+    <div className="w-full max-w-[1600px] mx-auto">
       <Carousel
         // swipeable={true}
         // draggable={true}
@@ -75,10 +75,10 @@ const CasesCarousel = () => {
         autoPlay={true}
         autoPlaySpeed={4000}
         // keyBoardControl={true}
-        //   customTransition="all .5"
-        //   transitionDuration={500}
+        // customTransition="all .5"
+        // transitionDuration={500}
         //   containerClass="carousel-container"
-        removeArrowOnDeviceType={["tablet", "mobile"]}
+        removeArrowOnDeviceType={["mobile"]}
         //   deviceType={this.props.deviceType}
         // dotListClass="case-dot"
         //   itemClass="carousel-item-padding-40-px"

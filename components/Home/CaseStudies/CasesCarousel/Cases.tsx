@@ -15,7 +15,7 @@ type Props = {
 
 const Cases = ({ data }: Props) => {
   return (
-    <div className="rounded-2xl m-1.5 border-2 border-[#ef41de] bg-linear-to-b from-[#1e001b] to-[#5f0055]">
+    <div className="rounded-2xl m-4 border-2 border-[#ef41de] bg-linear-to-b from-[#1e001b] to-[#5f0055]">
       <div className="mx-auto">
         <Image
           src={data.image}
@@ -34,7 +34,7 @@ const Cases = ({ data }: Props) => {
             {data.description}
           </p>
         </div>
-        <Link href={data.url}>
+        <Link href={`/${data.url}`}>
           <FillPrimaryButton>Read More</FillPrimaryButton>
         </Link>
       </div>

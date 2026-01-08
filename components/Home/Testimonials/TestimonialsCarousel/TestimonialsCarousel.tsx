@@ -30,28 +30,28 @@ const responsive = {
 const TestimonialsData = [
   {
     id: 1,
-    name: "Ayesha",
+    name: "Ayesha Umar",
     image: "/images/trustedPartner/Trusted-Partner.webp",
     review:
       "Explore the creation of 'Herculi' a 3D endless runner game by Nebula Interactive, featuring stunning visuals and exciting gameplay. Learn about its design, challenges, solutions, and key development insights of Virtual Dive.",
   },
   {
     id: 2,
-    name: "Asghar",
+    name: "Asghar Javaid",
     image: "/images/CaseStudies/BurnoutShip.webp",
     review:
       "Dive into Space Ship Battle Ground by Virtual Dive Studios. Race through space, overcome challenges, and outmaneuver rivals in this immersive 3D game. Experience thrilling gameplay and captivating sound effects.",
   },
   {
     id: 3,
-    name: "Huzaifa",
+    name: "M. Huzaifa",
     image: "/images/CaseStudies/TheFlip.webp",
     review:
       "Discover 'Grass Field' a 3D endless runner by Nebula Interactive. Navigate wrecked forests and cosmic obstacles as a daring hoverboard rider. This study covers design, mechanics, and development challenges.",
   },
   {
     id: 4,
-    name: "Kamran",
+    name: "Kamran Ali",
     image: "/images/CaseStudies/RushModeHeaven.webp",
     review:
       "Explore 'Rush Mode Heaven' a captivating AR/VR game by VIRTUAL DIVE STUDIOS. Dive into its unique paper plane journey through enchanting heavenly landscapes, tackling obstacles, and collecting rewards.",

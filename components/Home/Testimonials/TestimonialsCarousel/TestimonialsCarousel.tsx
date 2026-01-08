@@ -33,7 +33,7 @@ const TestimonialsData = [
     name: "Ayesha Umar",
     image: "/images/trustedPartner/Trusted-Partner.webp",
     review:
-      "Explore the creation of 'Herculi' a 3D endless runner game by Nebula Interactive, featuring stunning visuals and exciting gameplay. Learn about its design, challenges, solutions, and key development insights of Virtual Dive.",
+      "Explore the creation of  a 3D endless runner game by Nebula Interactive, featuring stunning visuals and exciting gameplay. Learn about its design, challenges, solutions, and key development insights of Virtual Dive.",
   },
   {
     id: 2,

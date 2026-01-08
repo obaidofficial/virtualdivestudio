@@ -10,6 +10,7 @@ import CoreEngines from "./CoreEngines/CoreEngines";
 import DevelopmentProcess from "./DevelopmentProcess/DevelopmentProcess";
 import WhyChoose from "./WhyChosse/WhyChoose";
 import CaseStudies from "./CaseStudies/CaseStudies";
+import Testimonials from "./Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <DevelopmentProcess />
       <WhyChoose />
       <CaseStudies />
+      <Testimonials />
     </div>
   );
 };

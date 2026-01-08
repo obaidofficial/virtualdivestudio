@@ -2,22 +2,22 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Cases from "./Cases";
+import TestimonialsCards from "./TestimonialsCards";
 
 const responsive = {
   extraLarge: {
     breakpoint: { max: 4000, min: 1800 },
-    items: 3,
+    items: 1,
     slidesToSlide: 1, // optional, default to 1.
   },
   desktop: {
     breakpoint: { max: 1800, min: 1324 },
-    items: 3,
+    items: 1,
     slidesToSlide: 1, // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: 1324, min: 764 },
-    items: 2,
+    items: 1,
     slidesToSlide: 1, // optional, default to 1.
   },
   mobile: {
@@ -27,44 +27,40 @@ const responsive = {
   },
 };
 
-const CasesData = [
+const TestimonialsData = [
   {
     id: 1,
-    url: "#",
-    title: "Herculi",
-    image: "/images/CaseStudies/Herculi.webp",
-    description:
+    name: "Herculi",
+    image: "/images/trustedPartner/Trusted-Partner.webp",
+    review:
       "Explore the creation of 'Herculi' a 3D endless runner game by Nebula Interactive, featuring stunning visuals and exciting gameplay. Learn about its design, challenges, solutions, and key development insights of Virtual Dive.",
   },
   {
     id: 2,
-    url: "#",
-    title: "Burnout Ship",
+    name: "Burnout Ship",
     image: "/images/CaseStudies/BurnoutShip.webp",
-    description:
+    review:
       "Dive into Space Ship Battle Ground by Virtual Dive Studios. Race through space, overcome challenges, and outmaneuver rivals in this immersive 3D game. Experience thrilling gameplay and captivating sound effects.",
   },
   {
     id: 3,
-    url: "#",
-    title: "The Flip",
+    name: "The Flip",
     image: "/images/CaseStudies/TheFlip.webp",
-    description:
+    review:
       "Discover 'Grass Field' a 3D endless runner by Nebula Interactive. Navigate wrecked forests and cosmic obstacles as a daring hoverboard rider. This study covers design, mechanics, and development challenges.",
   },
   {
     id: 4,
-    url: "#",
-    title: "Rush Mode Heaven",
+    name: "Rush Mode Heaven",
     image: "/images/CaseStudies/RushModeHeaven.webp",
-    description:
+    review:
       "Explore 'Rush Mode Heaven' a captivating AR/VR game by VIRTUAL DIVE STUDIOS. Dive into its unique paper plane journey through enchanting heavenly landscapes, tackling obstacles, and collecting rewards.",
   },
 ];
 
-const CasesCarousel = () => {
+const TestimonialsCarousel = () => {
   return (
-    <div className="w-full max-w-[1600px] mx-auto">
+    <div className="w-full max-w-[1200px] mx-auto">
       <Carousel
         arrows={true}
         // renderDotsOutside={false}
@@ -81,9 +77,9 @@ const CasesCarousel = () => {
         // dotListClass="case-dot"
         // itemClass="px-0"
       >
-        {CasesData.map((data) => (
+        {TestimonialsData.map((data) => (
           <div key={data.id} className="w-full">
-            <Cases data={data} />
+            <TestimonialsCards data={data} />
           </div>
         ))}
       </Carousel>
@@ -91,4 +87,4 @@ const CasesCarousel = () => {
   );
 };
 
-export default CasesCarousel;
+export default TestimonialsCarousel;

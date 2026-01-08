@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import FillPrimaryButton from "@/components/Helper/FillPrimaryButton";
 
 type Props = {
   data: {
@@ -15,7 +14,7 @@ type Props = {
 
 const Cases = ({ data }: Props) => {
   return (
-    <div className="rounded-2xl m-4 border border-[#ef41de] bg-linear-to-b from-[#1e001b] to-[#5f0055]">
+    <div className="rounded-2xl m-3.5 border border-[#ef41de] bg-linear-to-b from-[#1e001b] to-[#5f0055]">
       <Link href={`/${data.url}`}>
         <div className="mx-auto">
           <Image

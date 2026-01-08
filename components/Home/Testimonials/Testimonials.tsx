@@ -1,6 +1,4 @@
-import PrimaryBorderButton from "@/components/Helper/PrimaryBorderButton";
 import React from "react";
-import Link from "next/link";
 import TestimonialsCarousel from "./TestimonialsCarousel/TestimonialsCarousel";
 
 const Testimonials = () => {

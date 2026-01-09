@@ -124,7 +124,7 @@ const Globe: React.FC<ParticleProps> = ({ count = 6000, radius = 2.4 }) => {
         />
       </bufferGeometry>
       <pointsMaterial
-        size={0.055}
+        size={0.06}
         vertexColors
         transparent
         opacity={0.7}

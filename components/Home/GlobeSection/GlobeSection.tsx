@@ -41,7 +41,7 @@ const GlobeSection: React.FC = () => {
           </div>
 
           {/* Right Content - 3D Globe */}
-          <div className="lg:col-span-6 py-2.5 px-4 h-[40vh] md:h-full relative cursor-grab active:cursor-grabbing flex flex-col justify-center items-end">
+          <div className="lg:col-span-6 h-[40vh] md:h-full relative cursor-grab active:cursor-grabbing flex flex-col justify-center items-end">
             <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 10], fov: 45 }}>
               <OrbitControls
                 enableZoom={false}
@@ -57,7 +57,7 @@ const GlobeSection: React.FC = () => {
 
               <Suspense fallback={null}>
                 {/* Restored larger radius for desktop visibility */}
-                <Globe count={6000} radius={3.82} />
+                <Globe count={6000} radius={3.3} />
               </Suspense>
             </Canvas>
           </div>

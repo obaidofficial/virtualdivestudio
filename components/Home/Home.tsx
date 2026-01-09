@@ -12,12 +12,14 @@ import WhyChoose from "./WhyChosse/WhyChoose";
 import CaseStudies from "./CaseStudies/CaseStudies";
 import Testimonials from "./Testimonials/Testimonials";
 import HomePortfolio from "./HomePortfolio/HomePortfolio";
+import GlobeSection from "./GlobeSection/GlobeSection";
 
 const Home = () => {
   return (
     <div className="overflow-hidden">
       <Hero />
-      <TrustedPartner />
+      {/* <TrustedPartner /> */}
+      <GlobeSection />
       <CoreServices />
       <WhoWeAre />
       <GlobalRecognitions />

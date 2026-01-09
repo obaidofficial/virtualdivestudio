@@ -11,6 +11,7 @@ import DevelopmentProcess from "./DevelopmentProcess/DevelopmentProcess";
 import WhyChoose from "./WhyChosse/WhyChoose";
 import CaseStudies from "./CaseStudies/CaseStudies";
 import Testimonials from "./Testimonials/Testimonials";
+import HomePortfolio from "./HomePortfolio/HomePortfolio";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <DevelopmentProcess />
       <WhyChoose />
       <CaseStudies />
+      <HomePortfolio />
       <Testimonials />
     </div>
   );

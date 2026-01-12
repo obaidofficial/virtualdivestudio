@@ -1,5 +1,5 @@
 // Add React import to provide access to the 'React' namespace for ReactNode
-import React from 'react';
+import React from "react";
 
 export interface NavItem {
   label: string;
@@ -14,14 +14,16 @@ export interface MegaMenuColumn {
 }
 
 export interface MegaMenuData {
-  layout?: 'grid' | 'featured' | 'split' | 'icons';
+  layout?: "grid" | "featured" | "split" | "icons";
   columns: MegaMenuColumn[];
   featured?: {
     title: string;
     description: string;
     image: string;
-    cta: string;
-    href: string;
+    numbercta: string;
+    numberhref: string;
+    mailcta: string;
+    mailhref: string;
   };
 }
 

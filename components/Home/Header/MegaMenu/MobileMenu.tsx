@@ -136,12 +136,6 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
             <Link href="/contact" className="w-full flex flex-col">
               <FillPrimaryButton>Contact Us</FillPrimaryButton>
             </Link>
-            {/* <button className="w-full py-3 px-4 border border-gray-200 rounded-xl text-gray-900 font-semibold hover:bg-gray-50 transition-colors">
-              Log in
-            </button>
-            <button className="w-full py-3 px-4 bg-blue-600 rounded-xl text-white font-semibold hover:bg-blue-700 transition-shadow shadow-lg shadow-blue-500/30">
-              Get Started
-            </button> */}
           </div>
         </div>
       </div>

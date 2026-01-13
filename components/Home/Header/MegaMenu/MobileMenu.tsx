@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { NAVIGATION_DATA } from "../constants";
+import Image from "next/image";
+import Link from "next/link";
+import FillPrimaryButton from "@/components/Helper/FillPrimaryButton";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -27,18 +30,23 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 right-0 w-80 h-full bg-white z-1700 shadow-2xl transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 w-80 h-full bg-[#320127] z-1700 shadow-2xl transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } overflow-y-auto`}
       >
         <div className="p-6 flex flex-col h-full">
           <div className="flex items-center justify-between mb-8">
-            <span className="text-xl font-bold bg-linear-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              NexusUI
-            </span>
+            <Link href="/" className="transition-all duration-200">
+              <Image
+                src="/images/logo.webp"
+                alt="Virtual Dive Studio Logo"
+                width={120}
+                height={60}
+              />
+            </Link>
             <button
               onClick={onClose}
-              className="p-2 text-gray-500 hover:bg-gray-100 rounded-full transition-colors"
+              className="p-2 text-[#ef41de] rounded-full transition-colors"
             >
               <svg
                 className="w-6 h-6"
@@ -63,7 +71,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
                   <div>
                     <button
                       onClick={() => toggleAccordion(item.label)}
-                      className="w-full flex items-center justify-between py-3 text-lg font-medium text-gray-900 border-b border-gray-50"
+                      className="w-full flex items-center justify-between py-3 text-lg font-normal text-white border-b border-white/10"
                     >
                       {item.label}
                       <svg
@@ -90,11 +98,8 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
                       }`}
                     >
                       {item.megaMenu.columns.map((col, cIdx) => (
-                        <div
-                          key={cIdx}
-                          className="mb-4 pl-4 border-l-2 border-gray-100"
-                        >
-                          <h4 className="text-xs font-bold text-gray-400 uppercase mb-2">
+                        <div key={cIdx} className="mb-4 pl-4">
+                          <h4 className="text-xs font-bold text-[#ef41de] uppercase mb-2">
                             {col.title}
                           </h4>
                           <ul className="space-y-2">
@@ -102,7 +107,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
                               <li key={sIdx}>
                                 <a
                                   href={sub.href}
-                                  className="text-gray-600 hover:text-blue-600 py-1 block"
+                                  className="text-white/80 hover:text-[#ef41de] py-1 block"
                                   onClick={onClose}
                                 >
                                   {sub.label}
@@ -117,7 +122,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
                 ) : (
                   <a
                     href={item.href}
-                    className="block py-3 text-lg font-medium text-gray-900 border-b border-gray-50"
+                    className="block py-3 text-lg font-normal text-white border-b border-white/10"
                     onClick={onClose}
                   >
                     {item.label}
@@ -128,12 +133,15 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
           </nav>
 
           <div className="mt-8 space-y-3">
-            <button className="w-full py-3 px-4 border border-gray-200 rounded-xl text-gray-900 font-semibold hover:bg-gray-50 transition-colors">
+            <Link href="/contact" className="w-full flex flex-col">
+              <FillPrimaryButton>Contact Us</FillPrimaryButton>
+            </Link>
+            {/* <button className="w-full py-3 px-4 border border-gray-200 rounded-xl text-gray-900 font-semibold hover:bg-gray-50 transition-colors">
               Log in
             </button>
             <button className="w-full py-3 px-4 bg-blue-600 rounded-xl text-white font-semibold hover:bg-blue-700 transition-shadow shadow-lg shadow-blue-500/30">
               Get Started
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

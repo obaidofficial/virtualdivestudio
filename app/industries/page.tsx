@@ -1,6 +1,9 @@
 import React from "react";
 import { Metadata } from "next";
 import IndustriesBanner from "./components/banner/IndustriesBanner";
+import Testimonials from "@/components/Home/Testimonials/Testimonials";
+import HomePortfolio from "@/components/Home/HomePortfolio/HomePortfolio";
+import { GlobalRecognitions } from "@/components/Home/GlobalRecognitions/GlobalRecognitions";
 
 export const metadata: Metadata = {
   title: "Industries",
@@ -10,6 +13,9 @@ const page = () => {
   return (
     <div className="overflow-hidden">
       <IndustriesBanner />
+      <GlobalRecognitions />
+      <HomePortfolio />
+      <Testimonials />
     </div>
   );
 };

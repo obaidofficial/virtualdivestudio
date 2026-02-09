@@ -7,8 +7,7 @@ export const PORTFOLIOS: Portfolio[] = [
     title: "Demolition Derby",
     description:
       "Dive into the relentless world of banger racing, where your skill and courage are tested in the fiery...",
-    image:
-      "https://virtualdivestudio.com/_next/image?url=https%3A%2F%2Fdevtechub.com%2Fbevd%2F-DemolitionDerbyCarGames-20250118T132239891Z.webp&w=640&q=75&dpl=dpl_5otcDsgsxXurW25MRuoMjVFLfXtZ",
+    image: "/images/Portfolio/Demolition-Derby.webp",
     category: "Gaming",
     tags: ["Shopify Plus", "E-commerce", "UX Design"],
     link: "#",
@@ -18,8 +17,7 @@ export const PORTFOLIOS: Portfolio[] = [
     title: "4x4 Mountain Climb",
     description:
       "Embark on the ultimate off-road adventure with 4x4 Mountain Climb Car Game! This thrilling hill climb...",
-    image:
-      "https://virtualdivestudio.com/_next/image?url=https%3A%2F%2Fdevtechub.com%2Fbevd%2F-mountainClimbCarGames-20250118T132500168Z.webp&w=640&q=75&dpl=dpl_5otcDsgsxXurW25MRuoMjVFLfXtZ",
+    image: "/images/Portfolio/4x4-Mountain-Climb.webp",
     category: "Gaming",
     tags: ["Liquid", "Automation", "Retail"],
     link: "#",
@@ -29,8 +27,7 @@ export const PORTFOLIOS: Portfolio[] = [
     title: "Bus Simulator Offroad",
     description:
       "Welcome to the thrilling world of Bus Simulator Offroad Bus Game—your ultimate destination for an...",
-    image:
-      "https://virtualdivestudio.com/_next/image?url=https%3A%2F%2Fdevtechub.com%2Fbevd%2F-BusSimulatorOffroadBusGame-20250118T132644780Z.webp&w=640&q=75&dpl=dpl_5otcDsgsxXurW25MRuoMjVFLfXtZ",
+    image: "/images/Portfolio/Bus-Simulator-Offroad.webp",
     category: "Gaming",
     tags: ["Theme Dev", "UI Design", "Shopify"],
     link: "#",
@@ -42,8 +39,7 @@ export const PORTFOLIOS: Portfolio[] = [
     title: "Herculi",
     description:
       "Through strategic planning, methodical analysis, and iterative development, this game successfully navigated the challenges...",
-    image:
-      "https://virtualdivestudio.com/_next/image?url=https%3A%2F%2Fdevtechub.com%2Fbevd%2F-3DRunner-20241227T130532739Z.webp&w=640&q=75&dpl=dpl_5otcDsgsxXurW25MRuoMjVFLfXtZ",
+    image: "/images/Portfolio/Herculi.webp",
     category: "Gmae Development",
     tags: ["Headless", "React", "Rest API"],
     link: "#",
@@ -53,8 +49,7 @@ export const PORTFOLIOS: Portfolio[] = [
     title: "Burnout Ship",
     description:
       "Indeed, game apps that offer a personalized gaming experience have 40% more potential to increase user interaction...",
-    image:
-      "https://virtualdivestudio.com/_next/image?url=https%3A%2F%2Fdevtechub.com%2Fbevd%2F-SpaceshipBattleGround-20241228T130329150Z.webp&w=640&q=75&dpl=dpl_5otcDsgsxXurW25MRuoMjVFLfXtZ",
+    image: "/images/Portfolio/Burnout-Ship.webp",
     category: "Gmae Development",
     tags: ["Elementor", "Performance", "B2B"],
     link: "#",
@@ -64,8 +59,7 @@ export const PORTFOLIOS: Portfolio[] = [
     title: "The Flip",
     description:
       "Grass Fields is a performance based game environment. We kept the vertex count as low as possible and made sure...",
-    image:
-      "https://virtualdivestudio.com/_next/image?url=https%3A%2F%2Fdevtechub.com%2Fbevd%2F-grassfields-20241228T135315039Z.webp&w=640&q=75&dpl=dpl_5otcDsgsxXurW25MRuoMjVFLfXtZ",
+    image: "/images/Portfolio/The-Flip.webp",
     category: "Gmae Development",
     tags: ["FSE", "Gutenberg", "Portfolio"],
     link: "#",

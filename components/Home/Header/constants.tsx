@@ -201,7 +201,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         {
           title: "",
           items: [
-            { label: "Gaming Solutions", href: "#ip" },
+            { label: "Gaming Solutions", href: "/industries/gaming-solutions" },
             { label: "Sports App Design &  Development", href: "#ssl" },
             { label: "Healthcare & Wellness Solutions", href: "#multi" },
           ],
@@ -243,7 +243,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
             {
               label: "Portfolio",
               description: "Dive into the future with Virtual Dive Studios",
-              href: "#edge",
+              href: "/portfolio",
               icon: <BiSolidFolder width={60} height={60} />,
             },
           ],
@@ -255,7 +255,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
               label: "Case Studies",
               description:
                 "Our expertise in blockchain, digital twin technology",
-              href: "#storage",
+              href: "case-study",
               icon: <BiSolidFile width={60} height={60} />,
             },
           ],
@@ -276,7 +276,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
   },
   {
     label: "Platform",
-    href: "#",
+    href: "/platforms",
   },
   {
     label: "Hiring",

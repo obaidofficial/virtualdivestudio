@@ -9,16 +9,20 @@ import ContainedCTA from "@/components/Helper/ContainedCTA";
 import HowItWorks from "./HowItWorks/HowItWorks";
 import DifferenceUnrealUnity from "./DifferenceUnrealUnity/DifferenceUnrealUnity";
 import IndustriesWeWork from "./IndustriesWeWork/IndustriesWeWork";
+import PowerYourVision from "./PowerYourVision/PowerYourVision";
+import Benefits from "./Benefits/Benefits";
 
 const page = () => {
   return (
     <div className="overflow-hidden">
       <PlatformBanner />
       <CoreEngines />
+      <PowerYourVision />
       <Genres />
       <IndustriesWeWork />
       <DifferenceUnrealUnity />
       <ContainedCTA />
+      <Benefits />
       <CaseStudies />
       <ContainedCTA />
       <HowItWorks />

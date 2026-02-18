@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { SiUnity, SiUnrealengine } from "react-icons/si";
 
 const DifferenceUnrealUnity = () => {

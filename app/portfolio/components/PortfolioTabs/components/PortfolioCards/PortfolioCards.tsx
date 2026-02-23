@@ -29,21 +29,21 @@ const PortfolioCards: React.FC<PortfolioCardProps> = ({ portfolio }) => {
             </div>
           </div>
         </div>
-      </Link>
 
-      <div className="p-6 flex flex-col grow">
-        <div className="mb-2">
-          <span className="text-xs font-bold text-[#ef41de] uppercase tracking-widest">
-            {portfolio.category}
-          </span>
+        <div className="p-6 flex flex-col grow">
+          <div className="mb-2">
+            <span className="text-xs font-bold text-[#ef41de] uppercase tracking-widest">
+              {portfolio.category}
+            </span>
+          </div>
+          <h3 className="text-xl font-medium text-white mb-2">
+            {portfolio.title}
+          </h3>
+          <p className="text-white/80 text-sm leading-relaxed grow">
+            {portfolio.description}
+          </p>
         </div>
-        <h3 className="text-xl font-medium text-white mb-2">
-          {portfolio.title}
-        </h3>
-        <p className="text-white/80 text-sm leading-relaxed grow">
-          {portfolio.description}
-        </p>
-      </div>
+      </Link>
     </div>
   );
 };

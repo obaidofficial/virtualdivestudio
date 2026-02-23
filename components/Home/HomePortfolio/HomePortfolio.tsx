@@ -60,7 +60,7 @@ const HomePortfolio: React.FC = () => {
           {filteredPortfolios.map((portfolio, index) => (
             <div
               key={portfolio.id}
-              className="animate-in fade-in slide-in-from-bottom-4 duration-500 fill-mode-both"
+              className="duration-500 fill-mode-both"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <PortfolioCards portfolio={portfolio} />

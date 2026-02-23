@@ -25,17 +25,18 @@ const Cases = ({ data }: Props) => {
             className="rounded-2xl rounded-b-none h-[280px] w-fill object-cover hover:brightness-70"
           />
         </div>
-      </Link>
-      <div className="px-6 pt-3 pb-6">
-        <div>
-          <h4 className="text-[24px] md:text-[28px] pt-3 text-[#ef41de] leading-[1.3em] tracking-[0.1px]">
-            {data.title}
-          </h4>
-          <p className="text-[16px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px]">
-            {data.description}
-          </p>
+
+        <div className="px-6 pt-3 pb-6">
+          <div>
+            <h4 className="text-[24px] md:text-[28px] pt-3 text-[#ef41de] leading-[1.3em] tracking-[0.1px]">
+              {data.title}
+            </h4>
+            <p className="text-[16px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px]">
+              {data.description}
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

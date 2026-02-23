@@ -202,7 +202,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
           title: "",
           items: [
             { label: "Gaming Solutions", href: "/industries/gaming-solutions" },
-            { label: "Sports App Design &  Development", href: "#ssl" },
+            { label: "Sports App Design & Development", href: "#ssl" },
             { label: "Healthcare & Wellness Solutions", href: "#multi" },
           ],
         },
@@ -266,7 +266,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
             {
               label: "Blog",
               description: "Explore our latest insights and stories",
-              href: "#shield",
+              href: "/blog",
               icon: <BiSolidPencil width={60} height={60} />,
             },
           ],
@@ -280,7 +280,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
   },
   {
     label: "Hiring",
-    href: "#",
+    href: "/hiring",
   },
   {
     label: "About",

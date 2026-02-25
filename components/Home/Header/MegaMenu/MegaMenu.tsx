@@ -15,7 +15,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ data, isOpen }) => {
       className="absolute left-0 top-full w-full z-50 animate-in fade-in slide-in-from-top-1 duration-300 shadow-2xl bg-[#320127] border-t border-[#ffffff]/20"
       style={{ pointerEvents: "auto" }}
     >
-      <div className="max-w-[1700px] mx-auto px-6 sm:px-8 lg:px-12 py-12 lg:py-16">
+      <div className="max-w-[1700px] mx-auto px-6 sm:px-8 lg:px-12 py-12 lg:py-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           {/* Navigation Grid Area */}
           <div
@@ -38,7 +38,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ data, isOpen }) => {
                       <li key={iIdx}>
                         <Link
                           href={item.href}
-                          className="group flex items-start gap-5 p-2 -my-3.5 rounded-md hover:bg-[#ffffff]/10 transition-all duration-300"
+                          className="group flex items-start gap-5 p-1.5 -my-3.5 rounded-md hover:bg-[#ffffff]/10 transition-all duration-300"
                         >
                           {item.icon && (
                             <div className="shrink-0 w-12 h-12 text-[32px] flex items-center justify-center rounded-lg bg-white text-[#ef41de] group-hover:text-white group-hover:bg-[#ef41de] transition-all duration-300 shadow-sm">
@@ -46,7 +46,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ data, isOpen }) => {
                             </div>
                           )}
                           <div className="flex-1">
-                            <div className="text-[16px] font-light text-white transition-colors leading-tight">
+                            <div className="text-[15px] font-light text-white transition-colors leading-tight">
                               {item.label}
                             </div>
                             {item.description && (

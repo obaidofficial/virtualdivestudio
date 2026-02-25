@@ -1,19 +1,9 @@
 import React from "react";
-import {
-  FaApple,
-  FaBrain,
-  FaClock,
-  FaDesktop,
-  FaGamepad,
-  FaMobile,
-  FaUserTie,
-} from "react-icons/fa";
-import { FaAndroid, FaLock } from "react-icons/fa6";
+import { FaBrain, FaClock, FaUserTie } from "react-icons/fa";
+import { FaLock } from "react-icons/fa6";
 import { GiFist, GiVrHeadset } from "react-icons/gi";
-import { ImPacman } from "react-icons/im";
-import { PiVirtualReality } from "react-icons/pi";
 import { SiCircuitverse } from "react-icons/si";
-import { TbAugmentedReality, TbBulbFilled } from "react-icons/tb";
+import { TbBulbFilled } from "react-icons/tb";
 
 const Benefits = () => {
   return (

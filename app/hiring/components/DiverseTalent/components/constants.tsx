@@ -1,0 +1,143 @@
+import { Talent, Category } from "./types";
+
+export const TALENTS: Talent[] = [
+  // Game Developers
+  {
+    id: "g1",
+    title: "Muhammad Muzammil Bela",
+    verify: "Game Development (Unity, Unreal)",
+    image: "/images/about/team/bela.webp",
+    category: "Game Developers",
+    tags: [
+      "Game Development",
+      "Unity",
+      "Unreal",
+      "Animation",
+      "C#",
+      "C++",
+      "Adobe Photoshop",
+      "Adobe Premiere",
+    ],
+    expYears: "3",
+  },
+  {
+    id: "g2",
+    title: "Syed Ghufran Abbas",
+    verify: "Animation and C# Programming",
+    image: "/images/about/team/ghufran.webp",
+    category: "Game Developers",
+    tags: ["Game Development", "Unity", "Unreal", "Animation", "C#", "C++"],
+    expYears: "4",
+  },
+  {
+    id: "g3",
+    title: "Muhammad Abdul Rehman",
+    verify: "Unity and Adobe Photoshop",
+    image: "/images/about/team/dastan.webp",
+    category: "Game Developers",
+    tags: [
+      "Game Development",
+      "Unity",
+      "Unreal",
+      "Animation",
+      "C#",
+      "C++",
+      "Adobe Photoshop",
+      "Adobe Premiere",
+    ],
+    expYears: "4",
+  },
+
+  // Designers
+  {
+    id: "d1",
+    title: "Usama Ameen",
+    verify: "3D Modeling and UX/UI Design",
+    image: "/images/about/team/usamaameen.webp",
+    category: "Designers",
+    tags: [
+      "Blender",
+      "Substance Painter",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "3D Modeling",
+      "Texturing",
+      "UI/UX",
+      "ZBrush",
+      "After Effects",
+      "Adobe Premiere Pro",
+    ],
+    expYears: "3",
+  },
+  {
+    id: "d2",
+    title: "Muhammad Khizar",
+    verify: "UI/UX Design and Texturing",
+    image: "/images/about/team/khizar.webp",
+    category: "Designers",
+    tags: [
+      "Unity",
+      "Web Design",
+      "3D Modeling",
+      "Animation",
+      "Substance Painter",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Blender",
+      "Texturing",
+      "UI/UX",
+    ],
+    expYears: "5",
+  },
+  {
+    id: "d3",
+    title: "Faizan Munir",
+    verify: "3D Modeling and Animation",
+    image: "/images/about/team/faizanmunir.webp",
+    category: "Designers",
+    tags: [
+      "Blender",
+      "Unity",
+      "Substance Painter",
+      "Adobe Photoshop",
+      "Adobe Premiere Pro",
+    ],
+    expYears: "6",
+  },
+
+  // ASO Managers
+  {
+    id: "aso1",
+    title: "Ali Hamza Qureshi",
+    verify: "ASO Tools and Strategies",
+    image: "/images/about/team/ali.webp",
+    category: "ASO Managers",
+    tags: [
+      "Sensor Tower",
+      "Data AI",
+      "Key App Top",
+      "ASO Desk",
+      "App Radar",
+      "App Spy",
+      "App Tweak",
+      "Gummicube",
+    ],
+    expYears: "5",
+  },
+  {
+    id: "aso2",
+    title: "Haris Toor",
+    verify: "ASO Optimization",
+    image: "/images/about/team/haris.webp",
+    category: "ASO Managers",
+    tags: ["Sensor Tower", "Data AI", "Key App Top", "ASO Desk", "App Radar"],
+    expYears: "3",
+  },
+];
+
+// Correctly importing and using Category type from types.ts
+export const CATEGORIES: Category[] = [
+  "Game Developers",
+  "Designers",
+  "ASO Managers",
+];

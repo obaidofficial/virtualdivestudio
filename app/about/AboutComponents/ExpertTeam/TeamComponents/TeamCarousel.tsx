@@ -63,6 +63,11 @@ const TeamMembersData = [
     title: "Haris Toor",
     image: "/images/about/team/haris.webp",
   },
+  {
+    id: 8,
+    title: "Faizan Munir",
+    image: "/images/about/team/faizanmunir.webp",
+  },
 ];
 
 const TeamCarousel = () => {

@@ -30,31 +30,24 @@ const responsive = {
 const TestimonialsData = [
   {
     id: 1,
-    name: "Ayesha Umar",
-    image: "/images/trustedPartner/Trusted-Partner.webp",
+    name: "Valer",
+    image: "/images/testimonials/Valer.webp",
     review:
-      "Explore the creation of  a 3D endless runner game by Nebula Interactive, featuring stunning visuals and exciting gameplay. Learn about its design, challenges, solutions, and key development insights of Virtual Dive.",
+      "I have connected with Virtual Dive Studios regarding my game development project. My project was to build a Rocket Car Ball Game on the Unity platform. They have maintained the graphics quality & performance.",
   },
   {
     id: 2,
-    name: "Asghar Javaid",
-    image: "/images/CaseStudies/BurnoutShip.webp",
+    name: "Ahmed Abdul Aziz",
+    image: "/images/testimonials/AhmedAbdulAziz.webp",
     review:
-      "Dive into Space Ship Battle Ground by Virtual Dive Studios. Race through space, overcome challenges, and outmaneuver rivals in this immersive 3D game. Experience thrilling gameplay and captivating sound effects.",
+      "They have successfully delivered my VR-based real estate application within the timeline. Virtual Dive truly fulfills their commitment by meeting hard deadlines. I am truly amazed by their modern and innovative development solutions.",
   },
   {
     id: 3,
-    name: "M. Huzaifa",
-    image: "/images/CaseStudies/TheFlip.webp",
+    name: "Saadat Ali",
+    image: "/images/testimonials/SaadatAli.webp",
     review:
-      "Discover 'Grass Field' a 3D endless runner by Nebula Interactive. Navigate wrecked forests and cosmic obstacles as a daring hoverboard rider. This study covers design, mechanics, and development challenges.",
-  },
-  {
-    id: 4,
-    name: "Kamran Ali",
-    image: "/images/CaseStudies/RushModeHeaven.webp",
-    review:
-      "Explore 'Rush Mode Heaven' a captivating AR/VR game by VIRTUAL DIVE STUDIOS. Dive into its unique paper plane journey through enchanting heavenly landscapes, tackling obstacles, and collecting rewards.",
+      "We have approached them for the UI/UX Design for our packaging company. Their design approach helps us in generating some good business. Our form submission rate has increased by 20% after the updated design.",
   },
 ];
 

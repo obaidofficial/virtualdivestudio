@@ -105,17 +105,17 @@ export const NAVIGATION_DATA: MainNavItem[] = [
             {
               label: "Unity Game",
               description: "",
-              href: "#fin",
+              href: "/platforms/unity-game-development",
             },
             {
               label: "Unreal Game",
               description: "",
-              href: "#health",
+              href: "/platforms/unreal-engine-game-development",
             },
             {
               label: "UEFN",
               description: "",
-              href: "#health",
+              href: "/services/uefn-development",
             },
           ],
         },

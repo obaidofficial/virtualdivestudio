@@ -4,7 +4,7 @@ import Banner from "./components/Banner/Banner";
 import ContainedCTA from "@/components/Helper/ContainedCTA";
 import WeHire from "../industries/components/WeHire/WeHire";
 import Testimonials from "@/components/Home/Testimonials/Testimonials";
-import PowerYourVision from "../platforms/PowerYourVision/PowerYourVision";
+import PowerYourVision from "../platforms/components/PowerYourVision/PowerYourVision";
 import TopTalent from "./components/TopTalent/TopTalent";
 import BestOffshoreProgrammers from "./components/BestOffshoreProgrammers/BestOffshoreProgrammers";
 import HireFromUs from "./components/HireFromUs/HireFromUs";

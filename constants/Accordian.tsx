@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { AccordionProps } from "../../../../../constants/accordianItemData";
+import { AccordionProps } from "./accordianItemData";
 import AccordianItem from "./AccordianItem";
 
 const Accordion: React.FC<AccordionProps> = ({

@@ -1,5 +1,6 @@
 import React from "react";
-import { SiUnity, SiUnrealengine } from "react-icons/si";
+import { FaUnity } from "react-icons/fa";
+import { SiUnrealengine } from "react-icons/si";
 
 const DifferenceUnrealUnity = () => {
   return (
@@ -51,7 +52,7 @@ const DifferenceUnrealUnity = () => {
 
           <div className="lg:col-span-4 rounded-2xl m-2.5 border border-[#ef41de] bg-linear-to-b from-[#1e001b] to-[#5f0055]">
             <div className="px-6 pt-8 pb-6">
-              <SiUnity className="w-18 h-18 text-white" />
+              <FaUnity className="w-18 h-18 text-white" />
               <div>
                 <h4 className="text-[24px] md:text-[28px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Unity Game Development

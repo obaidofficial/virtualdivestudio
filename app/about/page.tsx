@@ -4,7 +4,7 @@ import Banner from "./AboutComponents/Banner/Banner";
 import WhatCEOSays from "./AboutComponents/WhatCEOSays/WhatCEOSays";
 import WhoWeAre from "@/components/Home/WhoWeAre/WhoWeAre";
 import ContainedCTA from "@/components/Helper/ContainedCTA";
-import Benefits from "../platforms/Benefits/Benefits";
+import Benefits from "../platforms/components/Benefits/Benefits";
 import HomePortfolio from "@/components/Home/HomePortfolio/HomePortfolio";
 import CaseStudies from "@/components/Home/CaseStudies/CaseStudies";
 import Countries from "./AboutComponents/Countries/Countries";

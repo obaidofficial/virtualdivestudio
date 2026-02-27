@@ -1,7 +1,7 @@
 export interface AccordianItemData {
   id: string;
   title: string;
-  content: string;
+  content?: React.ReactNode;
   icon?: string;
 }
 

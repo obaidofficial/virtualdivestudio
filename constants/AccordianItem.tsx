@@ -1,5 +1,5 @@
 import React from "react";
-import { AccordianItemData } from "../../../../../constants/accordianItemData";
+import { AccordianItemData } from "./accordianItemData";
 
 interface AccordionItemProps {
   item: AccordianItemData;

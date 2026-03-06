@@ -1,9 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { BsDatabase, BsUnity } from "react-icons/bs";
-import { FaFacebook, FaGamepad, FaUnity } from "react-icons/fa";
-import { PiVirtualReality } from "react-icons/pi";
-import { TbAugmentedReality, TbSocial } from "react-icons/tb";
 
 const WhyChooseUnity = () => {
   return (
@@ -12,7 +8,7 @@ const WhyChooseUnity = () => {
         <div className="grid lg:grid-cols-12 gap-2 lg:gap-2">
           <div className="lg:col-span-12 py-2.5 px-4">
             <h2 className="text-[28px] md:text-[32] text-center lg:text-[42px] text-white tracking-[0.5px] leading-[1.1em]">
-              Why Choose Unity For Game Development?
+              Why Choose Us For Game Development?
             </h2>
             <p className="text-white text-[15px] lg:text-[18px] font-light tracking-[0.17px] mt-4 transition-all duration-300 delay-50 text-center max-w-260 mx-auto mb-3">
               Unity is the top cross-platform choice, it includes all of the

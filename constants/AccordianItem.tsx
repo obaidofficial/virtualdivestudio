@@ -15,7 +15,7 @@ const AccordianItem: React.FC<AccordionItemProps> = ({
   return (
     <div
       className={`border-b border-[#ffffff]/20 last:border-0 transition-all duration-300 ${
-        isOpen ? "bg-[#4b1c3e]" : "hover:bg-[#ef41de]"
+        isOpen ? "bg-[#161616]" : "hover:bg-[#ef41de]"
       }`}
     >
       <button

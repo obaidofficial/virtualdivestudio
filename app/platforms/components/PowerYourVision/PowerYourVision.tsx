@@ -1,7 +1,9 @@
 import React from "react";
-import { FaApple, FaDesktop, FaGamepad, FaMobile } from "react-icons/fa";
+import { BiMobileAlt } from "react-icons/bi";
+import { CgPacman } from "react-icons/cg";
+import { FaApple, FaGamepad } from "react-icons/fa";
 import { FaAndroid } from "react-icons/fa6";
-import { ImPacman } from "react-icons/im";
+import { IoDesktopOutline } from "react-icons/io5";
 import { PiVirtualReality } from "react-icons/pi";
 import { TbAugmentedReality } from "react-icons/tb";
 
@@ -17,7 +19,7 @@ const PowerYourVision = () => {
           </div>
           <div className="lg:col-span-3 rounded-2xl m-1 bg-linear-to-b from-[#1e001b] to-[#5f0055]">
             <div className="px-2 pt-8 pb-6 text-center mx-auto">
-              <FaMobile className="w-15 h-15 text-white mx-auto" />
+              <BiMobileAlt className="w-15 h-15 text-white mx-auto" />
               <div>
                 <h4 className="text-[17px] md:text-[20px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Mobile Game Development
@@ -47,7 +49,7 @@ const PowerYourVision = () => {
 
           <div className="lg:col-span-3 rounded-2xl m-1 bg-linear-to-b from-[#1e001b] to-[#5f0055]">
             <div className="px-2 pt-8 pb-6 text-center mx-auto">
-              <ImPacman className="w-15 h-15 text-white mx-auto" />
+              <CgPacman className="w-15 h-15 text-white mx-auto" />
               <div>
                 <h4 className="text-[17px] md:text-[20px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Instant Game Development
@@ -93,7 +95,7 @@ const PowerYourVision = () => {
 
           <div className="lg:col-span-3 rounded-2xl m-1 bg-linear-to-b from-[#1e001b] to-[#5f0055]">
             <div className="px-2 pt-8 pb-6 text-center mx-auto">
-              <FaDesktop className="w-15 h-15 text-white mx-auto" />
+              <IoDesktopOutline className="w-15 h-15 text-white mx-auto" />
               <div>
                 <h4 className="text-[17px] md:text-[20px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   PC Game Development

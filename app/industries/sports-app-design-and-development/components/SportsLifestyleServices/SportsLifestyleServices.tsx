@@ -1,59 +1,21 @@
 import React from "react";
 import Link from "next/link";
-import { BiBitcoin, BiLogoMeta, BiMobileAlt } from "react-icons/bi";
+import { BiData, BiDumbbell, BiHeart, BiTrophy } from "react-icons/bi";
 import { PiVirtualReality } from "react-icons/pi";
-import { MdLoop } from "react-icons/md";
+import { GrTechnology } from "react-icons/gr";
 
-const Experiences = () => {
+const SportsLifestyleServices = () => {
   return (
     <div className="bg-[#0c000a] pt-16 pb-16">
       <div className="pt-6 w-[94%] lg:w-[90%] mx-auto pb-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-4">
           <div className="lg:col-span-12 py-2.5 px-4">
             <h2 className="text-[28px] md:text-[32] text-center lg:text-[42px] text-white tracking-[0.5px] leading-[1.1em]">
-              Explore Our Cutting-Edge Gaming Solutions for Unmatched Player
-              Experiences
+              Our Sports and Lifestyle Services
             </h2>
             <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4 text-center">
-              We cover different domains for this industry!
+              We embrace different areas of this industry.
             </p>
-          </div>
-
-          <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
-            <Link href="#" className="cursor-pointer">
-              <div className="px-2 pt-8 pb-6 text-center mx-auto">
-                <BiMobileAlt className="w-15 h-15 text-white mx-auto" />
-                <div>
-                  <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
-                    Mobile Game Development
-                  </h4>
-                  <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
-                    The ease of gaming can be increased by using our mobile game
-                    development services. If you want to develop an application
-                    that can run on multiple platforms, create a native app, or
-                    use other solution combinations we will help you with this.
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
-            <Link href="#" className="cursor-pointer">
-              <div className="px-2 pt-8 pb-6 text-center mx-auto">
-                <BiLogoMeta className="w-15 h-15 text-white mx-auto" />
-                <div>
-                  <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
-                    Metaverse Game Development
-                  </h4>
-                  <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
-                    Are you in the market for top-tier metaverse solutions?
-                    Through the virtual space you can make your own Meraverse
-                    that will be unique and personalized.
-                  </p>
-                </div>
-              </div>
-            </Link>
           </div>
 
           <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
@@ -62,12 +24,14 @@ const Experiences = () => {
                 <PiVirtualReality className="w-15 h-15 text-white mx-auto" />
                 <div>
                   <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
-                    AR/VR Game Development
+                    AR/VR as the Best Way to Involve Athletes
                   </h4>
                   <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
-                    We turn the dreams of people into reality and help
-                    businesses communicate with their customers more profoundly
-                    by using the newest techniques of AR and VR.
+                    We design individual AR training simulations for athletes,
+                    which exceed the limits and increase their performance to a
+                    maximum. We can make VR tours of venues and facilities for
+                    you so that athletes and their fans can virtually scout the
+                    locations.
                   </p>
                 </div>
               </div>
@@ -77,14 +41,17 @@ const Experiences = () => {
           <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
             <Link href="#" className="cursor-pointer">
               <div className="px-2 pt-8 pb-6 text-center mx-auto">
-                <MdLoop className="w-15 h-15 text-white mx-auto" />
+                <BiDumbbell className="w-15 h-15 text-white mx-auto" />
                 <div>
                   <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
-                    Full Cycle Game Development
+                    Apps for Personalized Health and Fitness
                   </h4>
                   <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
-                    Give us a chance to cover all the game development stages
-                    from idea creation to release.
+                    We make health and fitness apps that give a personalized
+                    workout plan, monitor the progress, and even suggest meals
+                    with nutrition apps for athletes and fitness fans. Besides,
+                    we also provide users with mindfulness and meditation apps
+                    that can improve their general health.
                   </p>
                 </div>
               </div>
@@ -94,15 +61,74 @@ const Experiences = () => {
           <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
             <Link href="#" className="cursor-pointer">
               <div className="px-2 pt-8 pb-6 text-center mx-auto">
-                <BiBitcoin className="w-15 h-15 text-white mx-auto" />
+                <GrTechnology className="w-15 h-15 text-white mx-auto" />
                 <div>
                   <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
-                    NFT Game Development
+                    Wearable Tech Integration
                   </h4>
                   <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
-                    Through the NFT game development, you can unlock the
-                    possibility of making amazing and profitable gaming
-                    experiences for your audience by working with our studio.
+                    Get wearable technology such as fitness trackers and
+                    smartwatches linked to your platform using our services.
+                    Real-time sensor data is the best way to give your sports
+                    clients valuable performance insights and help them track
+                    and improve their lifestyle.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
+            <Link href="#" className="cursor-pointer">
+              <div className="px-2 pt-8 pb-6 text-center mx-auto">
+                <BiData className="w-15 h-15 text-white mx-auto" />
+                <div>
+                  <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
+                    Data-Driven Sports Programs
+                  </h4>
+                  <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                    We develop custom software that allows coaches and athletes
+                    to digitally analyze performance data, get real-time
+                    insights during competitions, and even use predictive
+                    analytics to prevent and manage injuries.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
+            <Link href="#" className="cursor-pointer">
+              <div className="px-2 pt-8 pb-6 text-center mx-auto">
+                <BiTrophy className="w-15 h-15 text-white mx-auto" />
+                <div>
+                  <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
+                    E-Sports Services
+                  </h4>
+                  <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                    Come and join us to make a league of professional eSports
+                    tournaments. We design fun platforms for fitness,
+                    rehabilitation, and virtual training programs that make the
+                    boundary between play and progress very thin.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          <div className="lg:col-span-4 py-8 px-8 flex flex-col border border-[#1e001b] hover:border-[#FF00E5] rounded-xl bg-linear-to-b from-[#1e001b] to-[#b500a3]">
+            <Link href="#" className="cursor-pointer">
+              <div className="px-2 pt-8 pb-6 text-center mx-auto">
+                <BiHeart className="w-15 h-15 text-white mx-auto" />
+                <div>
+                  <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
+                    Custom Wellness Services
+                  </h4>
+                  <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                    Create on-demand fitness classes and individualized training
+                    sessions on your platform with our assistance. Moreover, you
+                    can also team up with healthy meal delivery services to
+                    provide convenient and nutritional food.
                   </p>
                 </div>
               </div>
@@ -114,4 +140,4 @@ const Experiences = () => {
   );
 };
 
-export default Experiences;
+export default SportsLifestyleServices;

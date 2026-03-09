@@ -46,7 +46,7 @@ const CoreEngines = () => {
               new standard of excellence in game development.
             </p>
             <div className="mt-4">
-              <Link href="/contact">
+              <Link href="/platforms/unity-game-development">
                 <FillPrimaryButton>More About Unity Engine</FillPrimaryButton>
               </Link>
             </div>
@@ -73,7 +73,7 @@ const CoreEngines = () => {
               people who can play them on PC, console, or mobile devices.
             </p>
             <div className="mt-4">
-              <Link href="/contact">
+              <Link href="/platforms/unreal-engine-game-development">
                 <FillPrimaryButton>More About Unreal Engine</FillPrimaryButton>
               </Link>
             </div>

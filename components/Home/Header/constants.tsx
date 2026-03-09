@@ -202,8 +202,14 @@ export const NAVIGATION_DATA: MainNavItem[] = [
           title: "",
           items: [
             { label: "Gaming Solutions", href: "/industries/gaming-solutions" },
-            { label: "Sports App Design & Development", href: "#ssl" },
-            { label: "Healthcare & Wellness Solutions", href: "#multi" },
+            {
+              label: "Sports App Design & Development",
+              href: "/industries/sports-app-design-and-development",
+            },
+            {
+              label: "Healthcare & Wellness Solutions",
+              href: "/industries/healthcare-and-wellness-solutions",
+            },
           ],
         },
         {
@@ -211,21 +217,33 @@ export const NAVIGATION_DATA: MainNavItem[] = [
           items: [
             {
               label: "AR Travel App Development Services",
-              href: "#std",
+              href: "/industries/ar-travel-app-development-services",
             },
             {
               label: "Social Networking & AR VR Entertainments Solutions",
-              href: "#prem",
+              href: "/industries/social-networking-and-ar-vr-entertainment-solutions",
             },
-            { label: "E Commerce Design Solutions", href: "#std" },
+            {
+              label: "E Commerce Design Solutions",
+              href: "/industries/ecommerce-design-solutions",
+            },
           ],
         },
         {
           title: "",
           items: [
-            { label: "AR VR Blockchain Development Services", href: "#std" },
-            { label: "Educational Game Development Services", href: "#prem" },
-            { label: "Real Estate Solutions", href: "#prem" },
+            {
+              label: "AR VR Blockchain Development Services",
+              href: "/industries/ar-vr-blockchain-development-services",
+            },
+            {
+              label: "Educational Game Development Services",
+              href: "/industries/educational-game-development-services",
+            },
+            {
+              label: "Real Estate Solutions",
+              href: "/industries/real-estate-solutions",
+            },
           ],
         },
       ],

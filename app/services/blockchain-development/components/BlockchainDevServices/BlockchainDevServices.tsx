@@ -4,7 +4,7 @@ import { SiApplepay, SiBlockchaindotcom } from "react-icons/si";
 import { PiVirtualReality } from "react-icons/pi";
 import { BsTranslate } from "react-icons/bs";
 
-const ARTravelAppDevelopmentServices = () => {
+const BlockchainDevServices = () => {
   return (
     <div className="bg-[#0c000a] pt-16 pb-16">
       <div className="pt-6 w-[94%] lg:w-[90%] mx-auto pb-6">
@@ -25,6 +25,14 @@ const ARTravelAppDevelopmentServices = () => {
                 <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Online Booking Platforms
                 </h4>
+                <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                  The interactive platforms are the ones that shape education by
+                  providing students with engaging and interactive experiences
+                  which have been proved to be the best way of learning because
+                  they help in understanding and retaining information. Join us
+                  in our efforts to motivate students and make them successful
+                  by creating these platforms.
+                </p>
               </div>
             </div>
           </div>
@@ -36,6 +44,14 @@ const ARTravelAppDevelopmentServices = () => {
                 <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   AR and VR Travel Integration
                 </h4>
+                <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                  The interactive platforms are the ones that shape education by
+                  providing students with engaging and interactive experiences
+                  which have been proved to be the best way of learning because
+                  they help in understanding and retaining information. Join us
+                  in our efforts to motivate students and make them successful
+                  by creating these platforms.
+                </p>
               </div>
             </div>
           </div>
@@ -47,6 +63,14 @@ const ARTravelAppDevelopmentServices = () => {
                 <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Travel Apps for Direction
                 </h4>
+                <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                  The interactive platforms are the ones that shape education by
+                  providing students with engaging and interactive experiences
+                  which have been proved to be the best way of learning because
+                  they help in understanding and retaining information. Join us
+                  in our efforts to motivate students and make them successful
+                  by creating these platforms.
+                </p>
               </div>
             </div>
           </div>
@@ -58,6 +82,14 @@ const ARTravelAppDevelopmentServices = () => {
                 <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Blockchain Integration in Travel
                 </h4>
+                <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                  The interactive platforms are the ones that shape education by
+                  providing students with engaging and interactive experiences
+                  which have been proved to be the best way of learning because
+                  they help in understanding and retaining information. Join us
+                  in our efforts to motivate students and make them successful
+                  by creating these platforms.
+                </p>
               </div>
             </div>
           </div>
@@ -69,6 +101,14 @@ const ARTravelAppDevelopmentServices = () => {
                 <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Language Translation Apps
                 </h4>
+                <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                  The interactive platforms are the ones that shape education by
+                  providing students with engaging and interactive experiences
+                  which have been proved to be the best way of learning because
+                  they help in understanding and retaining information. Join us
+                  in our efforts to motivate students and make them successful
+                  by creating these platforms.
+                </p>
               </div>
             </div>
           </div>
@@ -80,6 +120,14 @@ const ARTravelAppDevelopmentServices = () => {
                 <h4 className="text-[18px] md:text-[22px] pt-3 text-[#ffffff] leading-[1.3em] tracking-[0.1px]">
                   Mobile Wallets and Online Payment Solutions
                 </h4>
+                <p className="text-[15px] font-light pt-2 text-white leading-[1.4em] tracking-[0.1px] px-4">
+                  The interactive platforms are the ones that shape education by
+                  providing students with engaging and interactive experiences
+                  which have been proved to be the best way of learning because
+                  they help in understanding and retaining information. Join us
+                  in our efforts to motivate students and make them successful
+                  by creating these platforms.
+                </p>
               </div>
             </div>
           </div>
@@ -89,4 +137,4 @@ const ARTravelAppDevelopmentServices = () => {
   );
 };
 
-export default ARTravelAppDevelopmentServices;
+export default BlockchainDevServices;

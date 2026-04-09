@@ -11,6 +11,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
       columns: [
         {
           title: "Game Development",
+          titleURL: "/services/game-development",
           items: [
             {
               label: "Full Cycle Game",
@@ -51,6 +52,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "Real Estate",
+          titleURL: "/services/real-estate",
           items: [
             {
               label: "Virtual Staging",
@@ -101,6 +103,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "Game Engines",
+          titleURL: "#",
           items: [
             {
               label: "Unity Game",
@@ -121,6 +124,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "Metaverse Development",
+          titleURL: "/services/metaverse-development",
           items: [
             {
               label: "Ecommerce Platform",
@@ -136,6 +140,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "AR/VR Development",
+          titleURL: "/services/ar-vr-app-development",
           items: [
             {
               label: "VR Development",
@@ -151,6 +156,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "Design & Art",
+          titleURL: "/services/design-and-art-development",
           items: [
             {
               label: "Concept Art",
@@ -166,6 +172,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "Blockchain Development",
+          titleURL: "/services/blockchain-development",
           items: [
             {
               label: "Custom Blockchain",
@@ -200,6 +207,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
       columns: [
         {
           title: "",
+          titleURL: "",
           items: [
             { label: "Gaming Solutions", href: "/industries/gaming-solutions" },
             {
@@ -214,6 +222,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "",
+          titleURL: "",
           items: [
             {
               label: "AR Travel App Development Services",
@@ -231,6 +240,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "",
+          titleURL: "",
           items: [
             {
               label: "AR VR Blockchain Development Services",
@@ -257,6 +267,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
       columns: [
         {
           title: "",
+          titleURL: "",
           items: [
             {
               label: "Portfolio",
@@ -268,6 +279,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "",
+          titleURL: "",
           items: [
             {
               label: "Case Studies",
@@ -280,6 +292,7 @@ export const NAVIGATION_DATA: MainNavItem[] = [
         },
         {
           title: "",
+          titleURL: "",
           items: [
             {
               label: "Blog",

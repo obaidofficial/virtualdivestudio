@@ -30,7 +30,7 @@ export const MegaMenu: React.FC<MegaMenuProps> = ({ data, isOpen }) => {
                 <div key={idx} className="space-y-6">
                   {column.title && (
                     <h3 className="text-[12px] font-bold text-[#ef41de] uppercase tracking-[0.17px]">
-                      {column.title}
+                      <Link href={column.titleURL}>{column.title}</Link>
                     </h3>
                   )}
                   <ul className="grid gap-8">

@@ -10,6 +10,7 @@ export interface NavItem {
 
 export interface MegaMenuColumn {
   title?: string;
+  titleURL: string;
   items: NavItem[];
 }
 

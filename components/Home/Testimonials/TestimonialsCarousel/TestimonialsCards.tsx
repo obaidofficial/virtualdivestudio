@@ -13,9 +13,9 @@ type Props = {
 
 const TestimonialsCards = ({ data }: Props) => {
   return (
-    <div className="rounded-2xl m-3 px-4 py-8 text-center mx-30 bg-[#170012]/80 backdrop-blur-lg shadow-lg">
-      <div className="px-6 pt-3 pb-6">
-        <p className="text-[24px] font-light text-white leading-[1.5em] tracking-[0.1px] italic">
+    <div className="rounded-2xl m-3 px-4 py-8 text-center mx-2 md:mx-30 bg-[#170012]/80 backdrop-blur-lg shadow-lg">
+      <div className="px-2 md:px-6 pt-3 pb-6">
+        <p className="text-[16px] md:text-[24px] font-light text-white leading-[1.5em] tracking-[0.1px] italic">
           <span>"</span>
           {data.review}
           <span>"</span>

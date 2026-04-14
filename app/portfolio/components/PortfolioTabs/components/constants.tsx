@@ -10,7 +10,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Demolition-Derby.webp",
     category: "Gaming",
     tags: ["Shopify Plus", "E-commerce", "UX Design"],
-    link: "#",
+    link: "demolition-derby",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g2",
@@ -20,7 +32,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/4x4-Mountain-Climb.webp",
     category: "Gaming",
     tags: ["Liquid", "Automation", "Retail"],
-    link: "#",
+    link: "4x4-mountain-climb",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g3",
@@ -30,7 +54,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Bus-Simulator-Offroad.webp",
     category: "Gaming",
     tags: ["Theme Dev", "UI Design", "Shopify"],
-    link: "#",
+    link: "bus-simulator-offroad",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g4",
@@ -40,7 +76,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/City-Pilot-Flight-3D-Simulator.webp",
     category: "Gaming",
     tags: ["Subscriptions", "Recharge", "Marketing"],
-    link: "#",
+    link: "city-pilot-flight-3d-simulator",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g5",
@@ -50,7 +98,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Train-Driving-Simulator-3D.webp",
     category: "Gaming",
     tags: ["Subscriptions", "Recharge", "Marketing"],
-    link: "#",
+    link: "train-driving-simulator-3d",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g6",
@@ -60,7 +120,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Teen-High-School-Teacher.webp",
     category: "Gaming",
     tags: ["Subscriptions", "Recharge", "Marketing"],
-    link: "#",
+    link: "teen-high-school-teacher",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g7",
@@ -70,7 +142,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Rocket-Car-Car-Ball.webp",
     category: "Gaming",
     tags: ["Subscriptions", "Recharge", "Marketing"],
-    link: "#",
+    link: "rocket-car-car-ball",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g8",
@@ -80,7 +164,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Gym-Wrestling-Fighting.webp",
     category: "Gaming",
     tags: ["Subscriptions", "Recharge", "Marketing"],
-    link: "#",
+    link: "gym-wrestling-fighting",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "g9",
@@ -90,7 +186,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Multi-Prado-Parking-Car.webp",
     category: "Gaming",
     tags: ["Subscriptions", "Recharge", "Marketing"],
-    link: "#",
+    link: "multi-prado-parking-car",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
 
   // Gmae Development Portfolio
@@ -102,7 +210,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Herculi.webp",
     category: "Gmae Development",
     tags: ["Headless", "React", "Rest API"],
-    link: "#",
+    link: "herculi",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "gd2",
@@ -112,7 +232,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Burnout-Ship.webp",
     category: "Gmae Development",
     tags: ["Elementor", "Performance", "B2B"],
-    link: "#",
+    link: "burnout-ship",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "gd3",
@@ -122,7 +254,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/The-Flip.webp",
     category: "Gmae Development",
     tags: ["FSE", "Gutenberg", "Portfolio"],
-    link: "#",
+    link: "the-flip",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
   {
     id: "gd4",
@@ -132,7 +276,19 @@ export const PORTFOLIOS: Portfolio[] = [
     image: "/images/Portfolio/Rush-Mode-Heaven.webp",
     category: "Gmae Development",
     tags: ["LMS", "LearnDash", "E-Learning"],
-    link: "#",
+    link: "rush-mode-heaven",
+    content: (
+      <div>
+        <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+          The gaming industry is undergoing a seismic shift. Traditional game
+          downloads and hardware-based gameplay are giving way to more agile,
+          immersive, and accessible experiences powered by cloud gaming and edge
+          computing. As developers, publishers, and infrastructure providers
+          race to meet the growing demand for seamless performance, these
+          technologies are reshaping how we deliver, store, and play games.
+        </p>
+      </div>
+    ),
   },
 ];
 

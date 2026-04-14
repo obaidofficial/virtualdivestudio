@@ -8,4 +8,5 @@ export interface Portfolio {
   category: Category;
   tags: string[];
   link: string;
+  content?: React.ReactNode;
 }

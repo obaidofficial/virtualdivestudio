@@ -15,7 +15,7 @@ type Props = {
 const CasesCards = ({ casedata }: Props) => {
   return (
     <div className="col-span-1 rounded-2xl m-2.5 border border-[#ef41de] bg-linear-to-b from-[#1e001b] to-[#5f0055]">
-      <Link href={`/${casedata.url}`}>
+      <Link href={`/case-study/${casedata.url}`}>
         <div className="mx-auto">
           <Image
             src={casedata.image}

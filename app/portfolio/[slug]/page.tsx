@@ -69,7 +69,19 @@ const page: React.FC = () => {
               className="rounded-lg mx-auto mb-4 md:mb-10"
             />
           </div>
-          <div className="max-w-280 mx-auto">{portfolio.content}</div>
+          <div className="max-w-280 mx-auto">
+            {portfolio.content}
+            <div>
+              <p className="text-white text-[16px] lg:text-[20px] font-light tracking-[0.17px] mt-4">
+                <span className="font-medium">Demo Link:</span>{" "}
+                <span className="text-[#ef41de]">
+                  <Link href={portfolio.gameURL} target="_blank">
+                    Google Play Store
+                  </Link>
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

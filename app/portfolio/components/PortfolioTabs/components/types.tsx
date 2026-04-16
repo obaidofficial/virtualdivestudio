@@ -8,5 +8,6 @@ export interface Portfolio {
   category: Category;
   tags: string[];
   link: string;
+  gameURL: string;
   content?: React.ReactNode;
 }

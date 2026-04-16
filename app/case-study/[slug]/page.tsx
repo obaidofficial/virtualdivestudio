@@ -5,6 +5,8 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import { CASES } from "../Cases/constants";
 import { useParams, useRouter } from "next/navigation";
+import FillPrimaryButton from "@/components/Helper/FillPrimaryButton";
+import ContainedCTA from "@/components/Helper/ContainedCTA";
 
 const page: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -52,6 +54,12 @@ const page: React.FC = () => {
                 <h1 className="text-[32px] text-center lg:text-[50px] leading-[1.1em] text-white max-w-280 mx-auto">
                   {caseData.title}
                 </h1>
+                <p className="text-white text-[15px] lg:text-[18px] font-light tracking-[0.17px] text-center w-full md:w-[800px]">
+                  {caseData.description}
+                </p>
+                <Link href="/contact">
+                  <FillPrimaryButton>Contact Us</FillPrimaryButton>
+                </Link>
               </div>
             </div>
           </div>
@@ -72,6 +80,7 @@ const page: React.FC = () => {
           <div className="max-w-280 mx-auto">{caseData.content}</div>
         </div>
       </div>
+      <ContainedCTA />
     </div>
   );
 };
